@@ -1,2 +1,3 @@
-# SQP-Oracle
-lembretes de scripts de SQL
+# SCRIPTS DE SQL ORACLE 
+
+
