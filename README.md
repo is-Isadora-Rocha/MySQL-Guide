@@ -173,11 +173,15 @@ SELECT * FROM Categories;
 SELECT * FROM Products;
 ```
 
+### WHERE E BETWEEN 
+```
+SELECT * FROM Products WHERE ProductID = 156; -- EXIBE O DADO DO ID DE 155
+SELECT * FROM Products WHERE ProductID BETWEEN 155 AND 160; -- EXIBE ID DE 155 A 160
+SELECT * FROM Products WHERE SupplierID BETWEEN 2 AND 6 AND CategoryID BETWEEN 2 AND 6; 
+SELECT * FROM Products WHERE SupplierID = 2 AND CategoryID = 2; -- ENCONTRANDO ID DE NÚMERO 2 DAS DUAS TABELAS
+```
 
-	
 
-
-	
 # SCRIPTS DE SQL ORACLE 
 * Link utilizado para pratica: 
 https://www.w3schools.com/sql/trysql.asp?filename=trysql_products
